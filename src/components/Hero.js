@@ -4,12 +4,12 @@ function Hero() {
     return (
         <div>
             <section id="hero">
-                <div class="hero container">
-                <div class="">
+                <div className="hero container">
+                <div className="">
                     <h1>Hola,<span></span></h1>
                     <h1>Mi nombre es<span></span></h1>
                     <h1>Matías<span></span></h1>
-                    <a href="#projects" type="button" class="cta">Portafolio</a>
+                    <a href="#projects" type="button" className="cta">Portafolio</a>
                 </div>
                 </div>
             </section>          

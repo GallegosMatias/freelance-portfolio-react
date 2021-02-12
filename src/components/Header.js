@@ -1,21 +1,22 @@
 import React from 'react';
 
 function Header() {
+
     return (
         <div>
             <section id="header">
-                <div class="header container">
+                <div className="header container">
 
-                <div class="nav">
+                <div className="nav">
 
-                    <div class="brand">
+                    <div className="brand">
                     <a href="#hero"><h1><span>MATIAS</span> <span></span>GALLEGOS</h1></a>
                     </div>
 
-                    <div class="navbar">
+                    <div className="navbar">
 
                     {/*Hambuger*/}
-                    <div class="hamburger"><div class="bar"></div></div>
+                    <div className="hamburger"><div className="bar"></div></div>
 
                     {/*navbar*/}
                     <ul>

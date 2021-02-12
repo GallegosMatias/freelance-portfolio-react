@@ -1,42 +1,43 @@
-import React from 'react'
+import React from 'react';
+import dev from '../img/dev.png';
 
 function Contact() {
     return (
         <div>
             <section id="contact">
-                <div class="contact container">
+                <div className="contact container">
 
                 <div>
-                    <h1 class="section-title">CONTACTAME</h1>
+                    <h1 className="section-title">CONTACTAME</h1>
                 </div>
 
-                <div class="contact-items">
+                <div className="contact-items">
 
-                    <div class="contact-item">
-                    <div class="contact-item-icon">
-                        <img src="./img/dev.png" alt="" />
+                    <div className="contact-item">
+                    <div className="contact-item-icon">
+                        <img src={dev} alt="" />
                     </div>
-                    <div class="contact-item-info">
+                    <div className="contact-item-info">
                         <h1>Phone</h1>
                         <h2>Phone Number</h2>
                     </div>
                     </div>
 
-                    <div class="contact-item">
-                    <div class="contact-item-icon">
-                        <img src="./img/dev.png" alt="" />
+                    <div className="contact-item">
+                    <div className="contact-item-icon">
+                        <img src={dev} alt="" />
                     </div>
-                    <div class="contact-item-info">
+                    <div className="contact-item-info">
                         <h1>Phone</h1>
                         <h2>Phone Number</h2>
                     </div>
                     </div>
 
-                    <div class="contact-item">
-                    <div class="contact-item-icon">
-                        <img src="./img/dev.png" alt="" />
+                    <div className="contact-item">
+                    <div className="contact-item-icon">
+                        <img src={dev} alt="" />
                     </div>
-                    <div class="contact-item-info">
+                    <div className="contact-item-info">
                         <h1>Phone</h1>
                         <h2>Phone Number</h2>
                     </div>
