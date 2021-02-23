@@ -1,5 +1,6 @@
 import React from 'react';
 import img1 from '../img/img-1.png';
+import metalurgica from '../img/metalurgica.png';
 
 function Projects() {
     return (
@@ -17,12 +18,12 @@ function Projects() {
                 {/*Project Item*/}
                 <div className="projects-item">
                 <div className="projects-item-info">
-                    <h1>Project 1</h1>
-                    <h2>Subtitulo</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae vel, eum quia delectus quas similique sunt illum porro nostrum dolores quos dicta possimus corporis, asperiores molestias nobis ratione omnis distinctio.</p>
+                    <h1>Metalúrgica Irungaray</h1>
+                    <h2>Landing page</h2>
+                    <p>Página web de tipo Landing Page creada para Irungaray Metalúrigca. Incluye elección de imágenes para galería, Social Media Buttons, y formulario de contacto.</p>
                 </div>
                 <div className="projects-item-img">
-                    <img src={img1} alt="" />
+                    <img src={metalurgica} alt="" />
                 </div>
                 </div>
 
