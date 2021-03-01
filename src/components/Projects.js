@@ -1,6 +1,7 @@
 import React from 'react';
 import img1 from '../img/img-1.png';
 import metalurgica from '../img/metalurgica.png';
+import merit from '../img/merit.png';
 
 function Projects() {
     return (
@@ -30,12 +31,12 @@ function Projects() {
                 {/*Project Item*/}
                 <div className="projects-item">
                 <div className="projects-item-info">
-                    <h1>Project 2</h1>
-                    <h2>Subtitulo</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae vel, eum quia delectus quas similique sunt illum porro nostrum dolores quos dicta possimus corporis, asperiores molestias nobis ratione omnis distinctio.</p>
+                    <h1>Merit Gestión de Redes</h1>
+                    <h2>Web E-commerce</h2>
+                    <p>Sitio web con e-commerce funcional creado con Wordpress y WooCommerce. Pagos con PayPal y MercadoPago. Plantilla Storefront personalizada con handcoded CSS.</p>
                 </div>
                 <div className="projects-item-img">
-                    <img src={img1} alt="" />
+                    <img src={merit} alt="" />
                 </div>
                 </div>
 
