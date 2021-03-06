@@ -2,6 +2,7 @@ import React from 'react';
 import img1 from '../img/img-1.png';
 import metalurgica from '../img/metalurgica.png';
 import merit from '../img/merit.png';
+import drog from '../img/drog.png';
 
 function Projects() {
     return (
@@ -43,36 +44,12 @@ function Projects() {
                 {/*Project Item*/}
                 <div className="projects-item">
                 <div className="projects-item-info">
-                    <h1>Project 3</h1>
-                    <h2>Subtitulo</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae vel, eum quia delectus quas similique sunt illum porro nostrum dolores quos dicta possimus corporis, asperiores molestias nobis ratione omnis distinctio.</p>
+                    <h1>Drog SRL</h1>
+                    <h2>Sitio web Empresa</h2>
+                    <p>Sitio web creado a medida para un cliente con HTML, CSS y Javascript. Conexión con Google Maps, redes sociales, galería, formulario de contacto.</p>
                 </div>
                 <div className="projects-item-img">
-                    <img src={img1} alt="" />
-                </div>
-                </div>
-
-                {/*Project Item*/}
-                <div className="projects-item">
-                <div className="projects-item-info">
-                    <h1>Project 4</h1>
-                    <h2>Subtitulo</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae vel, eum quia delectus quas similique sunt illum porro nostrum dolores quos dicta possimus corporis, asperiores molestias nobis ratione omnis distinctio.</p>
-                </div>
-                <div className="projects-item-img">
-                    <img src={img1} alt="" />
-                </div>
-                </div>
-
-                {/*Project Item*/}
-                <div className="projects-item">
-                <div className="projects-item-info">
-                    <h1>Project 5</h1>
-                    <h2>Subtitulo</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae vel, eum quia delectus quas similique sunt illum porro nostrum dolores quos dicta possimus corporis, asperiores molestias nobis ratione omnis distinctio.</p>
-                </div>
-                <div className="projects-item-img">
-                    <img src={img1} alt="" />
+                    <img src={drog} alt="" />
                 </div>
                 </div>
 
