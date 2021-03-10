@@ -60,6 +60,10 @@ p {
   transition: .6s ease background-color;
 }
 
+.nav__black {
+  background-color: rgb(41, 50, 60);
+} 
+
 .nav {
   display: flex;
   align-items: center;
